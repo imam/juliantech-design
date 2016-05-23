@@ -1,0 +1,47 @@
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+.navbar{
+  .navbar-container{
+    width: $navbar-width;
+    margin: 0 auto;
+  }
+}
+
+.navbar-fixed-top{
+  top: $top-navbar-height;
+}
+
+.top-navbar{
+  position: fixed;
+  top: 0;
+  height: $top-navbar-height;
+  width: 100%;
+  background-color: $top-navbar-bg-color;
+  padding-right: $top-navbar-padding-right;
+  padding-top: $top-navbar-padding-top;
+  text-align: right;
+  p{
+    padding-left: 0;
+    color: white;
+  }
+}
+
+.navbar-default{
+  .navbar-nav{
+    > li {
+      min-width: $navbar-link-min-width;
+      text-align: left;
+      border-left: $navbar-link-border-left;
+      padding-left: 0;
+      &:hover{
+        background-color: $nav-link-hover-bg;
+      }
+      > a:hover{
+        color: $nav-link-hover-bg-text-color;
+      }
+    }
+  }
+}
