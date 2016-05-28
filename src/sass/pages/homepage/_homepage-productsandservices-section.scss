@@ -1,6 +1,10 @@
 .homepage-productsandservices-section {
   @extend .section-wrapper;
   color: white;
+  &-row{
+    margin: 50px auto;
+    @extend .row;
+  }
   &-container {
     @extend .section-container;
   }
