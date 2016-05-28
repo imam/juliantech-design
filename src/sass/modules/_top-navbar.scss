@@ -1,0 +1,14 @@
+.top-navbar{
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  height: $top-navbar-height;
+  width: 100%;
+  background-color: $top-navbar-bg-color;
+  padding-right: $top-navbar-padding-right;
+  padding-top: $top-navbar-padding-top;
+  text-align: right;
+  p{
+    padding-left: 0;
+  }
+}

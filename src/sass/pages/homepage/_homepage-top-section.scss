@@ -1,0 +1,39 @@
+.homepage-top-section {
+  position: relative;
+  margin-top: 111px;
+  height: 450px;
+  &-content{
+    z-index: 10;
+    position: absolute;
+    left: 90px;
+    @extend .container, .padding-top-200px;
+  }
+  &-image{
+    background-image: $top-section-image-bg;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  &-text{
+    width: 80%;
+    @extend .text-white, .text-roboto-slab;
+    &-js{
+      display: inline;
+    }
+  }
+  &-bg-wrapper{
+    @extend .image-with-overlay-absolute-wrapper;
+  }
+  &-bg-image-and-overlay-wrapper{
+    @extend .image-with-overlay-wrapper;
+  }
+  &-bg-image-overlay{
+    @extend .image-overlay,.image-overlay-main-color;
+  }
+  &-bg-image{
+    background-image: $top-section-image-bg;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+  }
+}
