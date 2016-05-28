@@ -118,8 +118,8 @@
               <file leaf-file-name="_top-navbar.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/sass/modules/_top-navbar.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="52">
-                      <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+                    <state relative-caret-position="260">
+                      <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
                       <folding />
                     </state>
                   </provider>
@@ -173,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/sass/pages/homepage/_homepage-productsandservices-section.scss" />
         <option value="$PROJECT_DIR$/src/sass/pages/homepage/_homepage-top-section.scss" />
         <option value="$PROJECT_DIR$/src/sass/modules/_top-navbar.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -313,12 +314,12 @@
       <workItem from="1463915592589" duration="33607000" />
       <workItem from="1464166189653" duration="22405000" />
       <workItem from="1464315170964" duration="3363000" />
-      <workItem from="1464325321540" duration="23024000" />
+      <workItem from="1464325321540" duration="23085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82399000" />
+    <option name="totallyTimeSpent" value="82460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -862,14 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/modules/_image-overlay.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -943,10 +936,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/modules/_image-overlay.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/modules/_top-navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="260">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
