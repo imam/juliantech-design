@@ -1,6 +1,6 @@
 .top-navbar{
   position: fixed;
-  z-index: 15;
+  z-index: 999;
   top: 0;
   height: $top-navbar-height;
   width: 100%;
@@ -8,7 +8,4 @@
   padding-right: $top-navbar-padding-right;
   padding-top: $top-navbar-padding-top;
   text-align: right;
-  p{
-    padding-left: 0;
-  }
 }
