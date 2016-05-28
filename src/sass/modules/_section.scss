@@ -1,3 +1,7 @@
+.section-container{
+  @extend .container,.text-center;
+}
+
 .section-title{
-  margin: 50px auto;
+  @extend .text-center, .margin-50px-vertical, .text-color-main, .text-roboto-slab;
 }

@@ -1,0 +1,39 @@
+@mixin padding-vertical($padding-top, $padding-bottom){
+  padding: $padding-top auto $padding-bottom;
+}
+
+@mixin padding-horizontal($padding-left, $padding-right){
+  padding: auto $padding-right auto $padding-right;
+}
+
+@mixin padding-top-left($padding-top, $padding-left){
+  padding: $padding-top auto auto $padding-left;
+}
+
+@mixin padding-top-right($padding-top, $padding-right){
+  padding: $padding-top, $padding-right, auto;
+}
+
+@mixin padding-bottom-left($padding-bottom, $padding-left){
+  padding: auto auto $padding-bottom $padding-left;
+}
+
+@mixin padding-bottom-right($padding-bottom, $padding-right){
+  padding: auto $padding-right $padding-bottom;
+}
+
+@mixin padding-top-right-bottom($padding-top, $padding-right, $padding-bottom){
+  padding: $padding-top $padding-right $padding-bottom;
+}
+
+@mixin padding-right-bottom-left($padding-right, $padding-bottom, $padding-left){
+  padding: auto $padding-right $padding-bottom $padding-left;
+}
+
+@mixin padding-bottom-left-top($padding-bottom, $padding-left, $padding-top){
+  padding: $padding-top auto $padding-bottom $padding-left ;
+}
+
+@mixin padding-left-top-right($padding-left, $padding-top, $padding-right){
+  padding: $padding-top $padding-right auto $padding-left ;
+}

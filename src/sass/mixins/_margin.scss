@@ -1,0 +1,39 @@
+@mixin margin-vertical($margin-top, $margin-bottom){
+  margin: $margin-top auto $margin-bottom;
+}
+
+@mixin margin-horizontal($margin-left, $margin-right){
+  margin: auto $margin-right auto $margin-right;
+}
+
+@mixin margin-top-left($margin-top, $margin-left){
+  margin: $margin-top auto auto $margin-left;
+}
+
+@mixin margin-top-right($margin-top, $margin-right){
+  margin: $margin-top, $margin-right, auto;
+}
+
+@mixin margin-bottom-left($margin-bottom, $margin-left){
+  margin: auto auto $margin-bottom $margin-left;
+}
+
+@mixin margin-bottom-right($margin-bottom, $margin-right){
+  margin: auto $margin-right $margin-bottom;
+}
+
+@mixin margin-top-right-bottom($margin-top, $margin-right, $margin-bottom){
+  margin: $margin-top $margin-right $margin-bottom;
+}
+
+@mixin margin-right-bottom-left($margin-right, $margin-bottom, $margin-left){
+  margin: auto $margin-right $margin-bottom $margin-left;
+}
+
+@mixin margin-bottom-left-top($margin-bottom, $margin-left, $margin-top){
+  margin: $margin-top auto $margin-bottom $margin-left ;
+}
+
+@mixin margin-left-top-right($margin-left, $margin-top, $margin-right){
+  margin: $margin-top $margin-right auto $margin-left ;
+}

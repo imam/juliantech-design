@@ -1,0 +1,10 @@
+.image-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.4);
+}
+
+.image-with-overlay-wrapper {
+  position: relative;
+}

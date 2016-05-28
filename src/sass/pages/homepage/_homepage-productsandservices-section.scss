@@ -1,0 +1,49 @@
+.homepage-productsandservices-section {
+  @extend .section-wrapper;
+  color: white;
+  &-container {
+    @extend .section-container;
+  }
+  &-title {
+    @extend .section-title;
+  }
+  &-item-wrapper {
+    @extend .col-lg-3;
+  }
+  &-item {
+    @extend .single-product, .vertical-align-parent;
+    position: relative;
+    height: 300px;
+  }
+  &-item-text-wrapper{
+    display: table;
+    height: 100%;
+    z-index: 15;
+    position: absolute;
+  }
+  &-item-text{
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 20;
+  }
+  &-item-bg-wrapper{
+    top: 0;
+    @extend .image-with-overlay-absolute-wrapper;
+  }
+  &-item-bg{
+    @extend .image-with-overlay-wrapper;
+  }
+  &-item-bg-overlay{
+    @extend .image-overlay, .image-overlay-main-color;
+  }
+  &-item-bg-image{
+    height: 100%;
+    background-image: url("../img/download2.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  &-item-pricing{
+    font-size: 16px;
+    margin-top: 8px;
+  }
+}

@@ -3,10 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>JulianTech</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link rel="apple-touch-icon" href="src/apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -17,7 +20,14 @@
     <link rel="stylesheet" href="src/css/styles.css">
     <!-- Font awesome-->
     <link rel="stylesheet" href="src/fonts/font-awesome-4.6.3/css/font-awesome.css">
-
+    <script src=""></script>
+    <script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>')</script>
+    <script src="src/js/typed.js"></script>
+    <script>
+        $(function () {
+            $('.top-section-text-no-js').addClass('hidden')
+        })
+    </script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -26,12 +36,14 @@
                                                                                                                        browser</a>
                           to improve your experience.</p>
 <![endif]-->
-<nav class="top-navbar">
-    <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;Jalan Chairil Anwar No. 98 &nbsp;&nbsp;<i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;+62822-184-9738
-                                                           &nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp;assidiqqi.imam@gmail.com</p>
+<nav class="top-navbar text-white">
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;Jalan Chairil Anwar No. 98 &nbsp;&nbsp;<i
+            class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;+62822-184-9738
+                                                           &nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>
+                                                           &nbsp;&nbsp;assidiqqi.imam@gmail.com</p>
 </nav>
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top navbar-with-top-navbar">
     <div class="navbar-container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -45,23 +57,153 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Portofolio</a></li>
-                <li><a href="#">Client</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"><span class="nav-title">Products</span><span class="nav-desc">Our Products</span></a>
+                </li>
+                <li><a href="#"><span class="nav-title">Services</span><span class="nav-desc">Our Services</span></a>
+                </li>
+                <li><a href="#"><span class="nav-title">Portofolio</span><span class="nav-desc">Our Finished Work</span></a>
+                </li>
+                <li><a href="#"><span class="nav-title">Client</span><span class="nav-desc">Our Clients</span></a></li>
+                <li><a href="#"><span class="nav-title">Contact Us</span><span class="nav-desc">Our Contact</span></a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<!-- Add your site or application content here -->
+<!-- Content  -->
+<div class="homepage-top-section">
+    <div class="homepage-top-section-content">
+        <div class="homepage-top-section-text">
+            <h1 class="homepage-top-section-text-js"></h1>
+            <h1 class="homepage-top-section-text-no-js">We are providing alot of things for your business need</h1>
+        </div>
+    </div>
+    <div class="homepage-top-section-bg-wrapper">
+        <div class="homepage-top-section-bg-image-and-overlay-wrapper">
+            <div class="homepage-top-section-bg-image-overlay"></div>
+            <div class="homepage-top-section-bg-image"></div>
+        </div>
+    </div>
+</div>
 
-<p>Hello world! This is HTML5 Boilerplate.</p>
+<section id="productsandservices" class="homepage-productsandservices-section">
+    <div class="homepage-productsandservices-section-container">
+        <h2 class="homepage-productsandservices-section-title">Our Products and Services</h2>
+        <div>
+            <div class="homepage-productsandservices-section-item-wrapper">
+                <div class="homepage-productsandservices-section-item">
+                    <div class="homepage-productsandservices-section-item-text-wrapper">
+                        <div class="homepage-productsandservices-section-item-text">
+                            <h2 class="homepage-productsandservices-section-item-title">Dolorem, laudantium.</h2>
+                            <h3 class="homepage-productsandservices-section-item-pricing">Mulai Dari Rp xxx.xxx,xx</h3>
+                        </div>
+                    </div>
+                    <div class="homepage-productsandservices-section-item-bg-wrapper">
+                        <div class="homepage-productsandservices-section-item-bg">
+                            <div class="homepage-productsandservices-section-item-bg-overlay"></div>
+                            <div class="homepage-productsandservices-section-item-bg-image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homepage-productsandservices-section-item-wrapper">
+                <div class="homepage-productsandservices-section-item">
+                    <div class="homepage-productsandservices-section-item-text-wrapper">
+                        <div class="homepage-productsandservices-section-item-text">
+                            <h2 class="homepage-productsandservices-section-item-title">Dolorem, laudantium.</h2>
+                            <h3 class="homepage-productsandservices-section-item-pricing">Mulai Dari Rp xxx.xxx,xx</h3>
+                        </div>
+                    </div>
+                    <div class="homepage-productsandservices-section-item-bg-wrapper">
+                        <div class="homepage-productsandservices-section-item-bg">
+                            <div class="homepage-productsandservices-section-item-bg-overlay"></div>
+                            <div class="homepage-productsandservices-section-item-bg-image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homepage-productsandservices-section-item-wrapper">
+                <div class="homepage-productsandservices-section-item">
+                    <div class="homepage-productsandservices-section-item-text-wrapper">
+                        <div class="homepage-productsandservices-section-item-text">
+                            <h2 class="homepage-productsandservices-section-item-title">Dolorem, laudantium.</h2>
+                            <h3 class="homepage-productsandservices-section-item-pricing">Mulai Dari Rp xxx.xxx,xx</h3>
+                        </div>
+                    </div>
+                    <div class="homepage-productsandservices-section-item-bg-wrapper">
+                        <div class="homepage-productsandservices-section-item-bg">
+                            <div class="homepage-productsandservices-section-item-bg-overlay"></div>
+                            <div class="homepage-productsandservices-section-item-bg-image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homepage-productsandservices-section-item-wrapper">
+                <div class="homepage-productsandservices-section-item">
+                    <div class="homepage-productsandservices-section-item-text-wrapper">
+                        <div class="homepage-productsandservices-section-item-text">
+                            <h2 class="homepage-productsandservices-section-item-title">Dolorem, laudantium.</h2>
+                            <h3 class="homepage-productsandservices-section-item-pricing">Mulai Dari Rp xxx.xxx,xx</h3>
+                        </div>
+                    </div>
+                    <div class="homepage-productsandservices-section-item-bg-wrapper">
+                        <div class="homepage-productsandservices-section-item-bg">
+                            <div class="homepage-productsandservices-section-item-bg-overlay"></div>
+                            <div class="homepage-productsandservices-section-item-bg-image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<section id="about" class="text-white">
+    <h2 class="text-center margin-50px-vertical text-color-main text-roboto-slab">About us</h2>
+    <div class="container margin-80px-vertical about-wrapper">
+        <div class="col-lg-6">
+            <div class="image-with-overlay-wrapper">
+                <div class="image-overlay image-overlay-grey"></div>
+                <div class="about-photo"></div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium blanditiis cum delectus deserunt
+               dolor
+               enim eum excepturi exercitationem explicabo inventore ipsam iure maxime minus modi mollitia perferendis
+               praesentium quas quia quisquam, repellat repudiandae sed voluptatem! Aliquid assumenda at commodi
+               consequuntur cumque dignissimos distinctio earum eos error excepturi facilis harum id illo itaque
+               laboriosam
+               laudantium maiores maxime nam, necessitatibus optio perferendis quasi ratione reiciendis rem similique
+               sint
+               unde. Aliquam aperiam explicabo facilis hic id illo labore, nemo, neque numquam, officia sint ut velit
+               vitae.
+               Aliquam assumenda deleniti ea enim expedita fuga itaque, modi, neque nisi odio perferendis quia
+               reiciendis
+               similique voluptatem?</p>
+            <p>Ad autem libero nesciunt officiis quas, quibusdam quisquam recusandae. Ab ad animi dicta et fuga ipsum
+               non
+               odio omnis, pariatur placeat provident quia quo, similique tempora totam? Ab ad aliquid animi consectetur
+               delectus dolorem ducimus ea, earum, excepturi expedita explicabo id ipsa labore laboriosam minima numquam
+               officiis perferendis perspiciatis porro quas qui quis rem repudiandae soluta tempore velit veritatis?
+               Aperiam
+               consectetur, consequuntur cupiditate delectus labore molestias obcaecati possimus qui rem repellat vel
+               veritatis. A aliquid architecto cupiditate dolore dolorem dolorum ea earum eius excepturi facere incidunt
+               modi molestias, mollitia odit quae quas quos repellat temporibus unde veniam voluptate voluptates
+               voluptatibus!</p>
+        </div>
+    </div>
+</section>
+
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
+
+
+<script>
+
+</script>
 <script src="src/js/plugins.js"></script>
 <script src="src/js/main.js"></script>
 

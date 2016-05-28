@@ -2,46 +2,27 @@
 @import "bootstrap-variables";
 // Import Bootstrap for Sass
 @import "bootstrap";
+/*
+ * Import Custom styles
+ */
+//Mixins
+@import "mixins/padding";
+@import "mixins/margin";
 
-.navbar{
-  .navbar-container{
-    width: $navbar-width;
-    margin: 0 auto;
-  }
-}
+//Reusable
+@import "modules/_text";
+@import "modules/_image-overlay";
+@import "modules/_padding";
+@import "modules/_margin";
+@import "modules/_section.scss";
 
-.navbar-fixed-top{
-  top: $top-navbar-height;
-}
+//General styles
+@import "modules/_top-navbar";
+@import "modules/_navbar";
 
-.top-navbar{
-  position: fixed;
-  top: 0;
-  height: $top-navbar-height;
-  width: 100%;
-  background-color: $top-navbar-bg-color;
-  padding-right: $top-navbar-padding-right;
-  padding-top: $top-navbar-padding-top;
-  text-align: right;
-  p{
-    padding-left: 0;
-    color: white;
-  }
-}
-
-.navbar-default{
-  .navbar-nav{
-    > li {
-      min-width: $navbar-link-min-width;
-      text-align: left;
-      border-left: $navbar-link-border-left;
-      padding-left: 0;
-      &:hover{
-        background-color: $nav-link-hover-bg;
-      }
-      > a:hover{
-        color: $nav-link-hover-bg-text-color;
-      }
-    }
-  }
-}
+//Homepage
+@import "pages/homepage/_homepage-top-section";
+@import "pages/homepage/_homepage-productsandservices-section.scss";
+@import "pages/homepage/_homepage-about-section";
+// Import Plugin Styles
+@import "plugin/typed";

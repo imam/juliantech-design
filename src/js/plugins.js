@@ -22,3 +22,8 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+$(document).ready(function(){
+    $('.top-section-text-js').typed({
+        strings: ['We are providing alot of things for your business need']
+    })
+});
