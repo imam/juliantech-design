@@ -29,6 +29,7 @@
     display: table-cell;
     vertical-align: middle;
     z-index: 20;
+    color: white;
   }
   &-item-bg-wrapper{
     top: 0;
@@ -45,7 +46,8 @@
     background-image: url("../img/Untitled-1.jpg");
     background-position: center center;
     background-size: 100%;
-    &:hover{
+    transition: all 2s ease;
+    &-hover{
       background-size: 150%;
     }
   }

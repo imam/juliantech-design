@@ -25,5 +25,9 @@
 $(document).ready(function(){
     $('.homepage-top-section-text-js').typed({
         strings: ['We are providing alot of things for your business need']
-    })
+    });
+    $('.homepage-productsandservices-section-item').hover(
+        function(){ $(this).find('.homepage-productsandservices-section-item-bg-image').addClass('homepage-productsandservices-section-item-bg-image-hover') },
+        function(){ $(this).find('.homepage-productsandservices-section-item-bg-image').removeClass('homepage-productsandservices-section-item-bg-image-hover')}
+    )
 });
