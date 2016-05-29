@@ -23,7 +23,7 @@
 
 // Place any jQuery/helper plugins in here.
 $(document).ready(function(){
-    $('.homepage-top-section-text-js').typed({
+    $('.ht-section-text-js').typed({
         strings: ['We are providing alot of things for your business need']
     });
     $('.hpas-section-item').hover(
