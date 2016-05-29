@@ -1,0 +1,98 @@
+doctype html
+html
+    head
+        title JulianTech
+        include ./jade-modules/head
+        script(src="src/js/typed.js")
+        script.
+            $(function () {
+                $('.homepage-top-section-text-no-js').addClass('hidden')
+            })
+    body
+        include ./jade-modules/IE8notification
+        include ./jade-modules/navbar
+        //Content
+        .homepage-top-section
+            .homepage-top-section-content
+                .homepage-top-section-text
+                    h1.homepage-top-section-text-js
+                    h1.homepage-top-section-text-no-js We are providing alot of things for your business need
+            .homepage-top-section-bg-wrapper
+                .homepage-top-section-bg-image-and-overlay-wrapper
+                    .homepage-top-section-bg-image-overlay
+                    .homepage-top-section-bg-image
+
+        //Homepage Products And Services Section
+        section#productsandservices.hpas-section
+            .hpas-section-container
+                h2.hpas-section-title Our Products and Services
+                -o=0
+                while o < 2
+                    .hpas-section-row
+                        -n=0
+                        while n < 4
+                            .hpas-section-item-wrapper
+                                a(href="#")
+                                    .hpas-section-item
+                                        .hpas-section-item-text-wrapper
+                                            .hpas-section-item-text
+                                                h2.hpas-section-item-title Dolorem, laudantium.
+                                                h3.hpas-section-item-pricing Mulai Dari Rp xxx.xxx,xx
+                                        .hpas-section-item-bg-wrapper
+                                            .hpas-section-item-bg
+                                                .hpas-section-item-bg-overlay
+                                                .hpas-section-item-bg-image
+                            -n++
+                    -o++
+
+        section#about.text-white
+            h2.text-center.margin-50px-vertical.text-color-main.text-roboto-slab About Us
+            .container.margin-80px-vertical.about-wrapper
+                .col-lg-6
+                    .image-with-overlay-wrapper
+                        .image-overlay.image-overlay-grey
+                        .about-photo
+                .col-lg-6
+                    p.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium blanditiis cum delectus deserunt
+                           dolor
+                           enim eum excepturi exercitationem explicabo inventore ipsam iure maxime minus modi mollitia perferendis
+                           praesentium quas quia quisquam, repellat repudiandae sed voluptatem! Aliquid assumenda at commodi
+                           consequuntur cumque dignissimos distinctio earum eos error excepturi facilis harum id illo itaque
+                           laboriosam
+                           laudantium maiores maxime nam, necessitatibus optio perferendis quasi ratione reiciendis rem similique
+                           sint
+                           unde. Aliquam aperiam explicabo facilis hic id illo labore, nemo, neque numquam, officia sint ut velit
+                           vitae.
+                           Aliquam assumenda deleniti ea enim expedita fuga itaque, modi, neque nisi odio perferendis quia
+                           reiciendis
+                           similique voluptatem?
+                    p.
+                        Ad autem libero nesciunt officiis quas, quibusdam quisquam recusandae. Ab ad animi dicta et fuga ipsum
+                           non
+                           odio omnis, pariatur placeat provident quia quo, similique tempora totam? Ab ad aliquid animi consectetur
+                           delectus dolorem ducimus ea, earum, excepturi expedita explicabo id ipsa labore laboriosam minima numquam
+                           officiis perferendis perspiciatis porro quas qui quis rem repudiandae soluta tempore velit veritatis?
+                           Aperiam
+                           consectetur, consequuntur cupiditate delectus labore molestias obcaecati possimus qui rem repellat vel
+                           veritatis. A aliquid architecto cupiditate dolore dolorem dolorum ea earum eius excepturi facere incidunt
+                           modi molestias, mollitia odit quae quas quos repellat temporibus unde veniam voluptate voluptates
+                           voluptatibus!
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",crossorigin="anonymous")
+        script(src="src/js/plugins.js")
+        script(src="src/js/main.js")
+        script.
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] =
+                        function () {
+                            (b[l].q = b[l].q || []).push(arguments)
+                        });
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = 'https://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+
+

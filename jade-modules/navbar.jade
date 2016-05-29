@@ -1,0 +1,34 @@
+mixin nav(href,navtitle,navdesc)
+    li
+        a(href= href)
+            span.nav-title= navtitle
+            span.nav-desc= navdesc
+
+//Top Navbar
+nav.top-navbar.text-white
+    p
+        i.fa.fa-map-marker(aria-hidden="true")
+        | &nbsp;&nbsp;Jalan Chairil Anwar No. 98 &nbsp;&nbsp;
+        i.fa.fa-phone(aria-hidden="true")
+        | &nbsp;&nbsp;+62822-184-9738
+        | &nbsp;&nbsp;
+        i.fa.fa-envelope(aria-hidden="true")
+        | &nbsp;&nbsp;assidiqqi.imam@gmail.com
+//Main Navbar
+nav.navbar.navbar-default.navbar-fixed-top.navbar-with-top-navbar
+    .navbar-container
+        .navbar-header
+            button.navbar-toggle.collapsed(data-toggle="collapse",data-target="#navbar",aria-expanded="false",aria-controls="navbar")
+                span.sr-only Toggle navigation
+                - var n = 0
+                while n < 3
+                    span.icon-bar
+                    -n++
+            a.navbar-brand(href="#") JulianTech
+        #navbar.navbar-collapse.collapse
+            ul.nav.navbar-nav.navbar-right
+                +nav('#','Products','Our Products')
+                +nav('#','Services','Our Services')
+                +nav('#','Portofolio','Our Finished Work')
+                +nav('#','Services','Our Clients')
+                +nav('#','Services','Our Contact')
