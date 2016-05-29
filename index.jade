@@ -11,48 +11,17 @@ html
     body
         include ./jade-modules/IE8notification
         include ./jade-modules/navbar
-        //Content
-        .homepage-top-section
-            .homepage-top-section-content
-                .homepage-top-section-text
-                    h1.homepage-top-section-text-js
-                    h1.homepage-top-section-text-no-js We are providing alot of things for your business need
-            .homepage-top-section-bg-wrapper
-                .homepage-top-section-bg-image-and-overlay-wrapper
-                    .homepage-top-section-bg-image-overlay
-                    .homepage-top-section-bg-image
+        include ./jade-modules/homepage/top-section
+        include ./jade-modules/homepage/productsandservices-section
 
-        //Homepage Products And Services Section
-        section#productsandservices.hpas-section
-            .hpas-section-container
-                h2.hpas-section-title Our Products and Services
-                -o=0
-                while o < 2
-                    .hpas-section-row
-                        -n=0
-                        while n < 4
-                            .hpas-section-item-wrapper
-                                a(href="#")
-                                    .hpas-section-item
-                                        .hpas-section-item-text-wrapper
-                                            .hpas-section-item-text
-                                                h2.hpas-section-item-title Dolorem, laudantium.
-                                                h3.hpas-section-item-pricing Mulai Dari Rp xxx.xxx,xx
-                                        .hpas-section-item-bg-wrapper
-                                            .hpas-section-item-bg
-                                                .hpas-section-item-bg-overlay
-                                                .hpas-section-item-bg-image
-                            -n++
-                    -o++
-
-        section#about.text-white
-            h2.text-center.margin-50px-vertical.text-color-main.text-roboto-slab About Us
-            .container.margin-80px-vertical.about-wrapper
-                .col-lg-6
+        section#about.ha-section
+            h2.ha-section-title About Us
+            .ha-section-wrapper
+                .ha-section-column
                     .image-with-overlay-wrapper
                         .image-overlay.image-overlay-grey
                         .about-photo
-                .col-lg-6
+                .ha-section-column
                     p.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium blanditiis cum delectus deserunt
                            dolor

@@ -29,5 +29,12 @@ $(document).ready(function(){
     $('.hpas-section-item').hover(
         function(){ $(this).find('.hpas-section-item-bg-image').addClass('hpas-section-item-bg-image-hover') },
         function(){ $(this).find('.hpas-section-item-bg-image').removeClass('hpas-section-item-bg-image-hover')}
-    )
+    );
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 200){
+            $('.navbar-fixed-top').addClass('navbar-afterScroll')
+        } else{
+            $('.navbar-fixed-top').removeClass('navbar-afterScroll')
+        }
+    });
 });

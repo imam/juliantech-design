@@ -1,5 +1,17 @@
-.homepage-about-section{
-
+.ha-section{
+  color: white;
+  &-title{
+    @extend .text-center,.margin-50px-vertical,.text-color-main,.text-roboto-slab;
+  }
+  &-wrapper{
+    @extend .container,.margin-80px-vertical,.about-wrapper;
+  }
+  &-column{
+    @extend .col-lg-6;
+  }
+  &-image-wrapper{
+    @extend .image-with-overlay-wrapper;
+  }
 }
 
 .about-wrapper{
