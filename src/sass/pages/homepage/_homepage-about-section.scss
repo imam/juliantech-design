@@ -4,13 +4,41 @@
     @extend .text-center,.margin-50px-vertical,.text-color-main,.text-roboto-slab;
   }
   &-wrapper{
-    @extend .container,.margin-80px-vertical,.about-wrapper;
+    @extend .container,.margin-80px-vertical;
+    width: 1110px;
+    padding: 30px;
+    text-align: right;
+    position: relative;
+    background-color: rgba(151,206,104,1);
+    font-weight: bold;
+    display: table;
   }
   &-column{
     @extend .col-lg-6;
+    display: table-cell;
+    position: relative;
+    float: none;
+    vertical-align: top;
   }
   &-image-wrapper{
     @extend .image-with-overlay-wrapper;
+  }
+  &-image-overlay{
+    @extend .image-overlay, .image-overlay-grey;
+    z-index: 10;
+    width: calc(100% - 30px);
+  }
+  &-image{
+    @extend .about-photo;
+    min-height: 463px;
+    background: $about-photo;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 30px);
+  }
+  &-text{
+    color: white;
   }
 }
 
