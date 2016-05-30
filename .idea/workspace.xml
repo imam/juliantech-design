@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec99d206-dc83-453a-835a-26798afe1cf6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/plugins.js" afterPath="$PROJECT_DIR$/src/js/plugins.js" />
-    </list>
+    <list default="true" id="ec99d206-dc83-453a-835a-26798afe1cf6" name="Default" comment="" />
     <ignored path="juliantech.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,14 +26,12 @@
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/index.jade">
+              <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/.gitignore">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="208">
-                      <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-                      <folding>
-                        <marker date="1464531879747" expanded="true" signature="17:3802" placeholder="..." />
-                      </folding>
+                    <state relative-caret-position="52">
+                      <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -130,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/sass/_homepage-top-section.scss" />
         <option value="$PROJECT_DIR$/src/sass/modules/_section.scss" />
         <option value="$PROJECT_DIR$/src/css/styles.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/sass/modules/_top-navbar.scss" />
         <option value="$PROJECT_DIR$/src/sass/_custom.scss" />
         <option value="$PROJECT_DIR$/pindex.pug" />
@@ -149,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/sass/modules/_navbar.scss" />
         <option value="$PROJECT_DIR$/src/js/plugins.js" />
         <option value="$PROJECT_DIR$/index.jade" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -296,12 +290,12 @@
       <workItem from="1464166189653" duration="22405000" />
       <workItem from="1464315170964" duration="3363000" />
       <workItem from="1464325321540" duration="26959000" />
-      <workItem from="1464478596846" duration="21661000" />
+      <workItem from="1464478596846" duration="22237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107995000" />
+    <option name="totallyTimeSpent" value="108571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
@@ -760,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/modules/_top-navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1152,8 +1139,28 @@
         <state relative-caret-position="208">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
+            <marker date="1464531879747" expanded="true" signature="17:3801" placeholder="..." />
             <marker date="1464531879747" expanded="true" signature="17:3802" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="26:247" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="140:247" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="256:3801" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="478:2959" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="568:2959" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="603:746" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="651:746" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="781:2959" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="803:1919" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="1941:2959" placeholder="..." />
+            <marker date="1464531879747" expanded="true" signature="3249:3801" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
