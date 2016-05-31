@@ -19,6 +19,7 @@
     position: relative;
     float: none;
     vertical-align: top;
+    padding: 0;
   }
   &-image-wrapper{
     @extend .image-with-overlay-wrapper;
@@ -30,7 +31,6 @@
   }
   &-image{
     @extend .about-photo;
-    min-height: 463px;
     background: $about-photo;
     background-size: cover;
     position: absolute;
