@@ -23,6 +23,7 @@
   &-item-text-wrapper{
     display: table;
     height: 100%;
+    width: 100%;
     z-index: 15;
     position: absolute;
   }
@@ -42,6 +43,10 @@
   &-item-bg-overlay{
     @extend .image-overlay, .image-overlay-main-color;
   }
+  &-item-bg-read-more-overlay{
+    @extend .image-overlay;
+    background-color: $base-color-5;
+  }
   &-item-bg-image{
     height: 100%;
     background-image: url("../img/Untitled-1.jpg");
@@ -55,5 +60,14 @@
   &-item-pricing{
     font-size: 16px;
     margin-top: 8px;
+  }
+  &-item-read-more-hr{
+    width: 0;
+    margin: -4px auto;
+    border-width: 2px;
+    transition: all .5s linear;
+  }
+  &-item-read-more-hr-hover{
+    width: 52%;
   }
 }

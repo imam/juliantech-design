@@ -20,10 +20,10 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-with-top-navbar
         .navbar-header
             button.navbar-toggle.collapsed(data-toggle="collapse",data-target="#navbar",aria-expanded="false",aria-controls="navbar")
                 span.sr-only Toggle navigation
-                - var n = 0
-                while n < 3
+                - var row = 0
+                while row < 3
                     span.icon-bar
-                    -n++
+                    -row++
             a.navbar-brand(href="#") JulianTech
         #navbar.navbar-collapse.collapse
             ul.nav.navbar-nav.navbar-right

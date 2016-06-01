@@ -66,9 +66,9 @@
     var o  = this.options
 
     return $e.attr('data-content')
-      || (typeof o.content == 'function' ?
-            o.content.call($e[0]) :
-            o.content)
+      || (typeof column.content == 'function' ?
+            column.content.call($e[0]) :
+            column.content)
   }
 
   Popover.prototype.arrow = function () {

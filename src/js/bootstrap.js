@@ -1659,7 +1659,7 @@ if (typeof jQuery === 'undefined') {
     var o  = this.options
 
     title = $e.attr('data-original-title')
-      || (typeof o.title == 'function' ? o.title.call($e[0]) :  o.title)
+      || (typeof column.title == 'function' ? column.title.call($e[0]) :  column.title)
 
     return title
   }
@@ -1829,9 +1829,9 @@ if (typeof jQuery === 'undefined') {
     var o  = this.options
 
     return $e.attr('data-content')
-      || (typeof o.content == 'function' ?
-            o.content.call($e[0]) :
-            o.content)
+      || (typeof column.content == 'function' ?
+            column.content.call($e[0]) :
+            column.content)
   }
 
   Popover.prototype.arrow = function () {

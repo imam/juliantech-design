@@ -17,6 +17,7 @@
   &-text{
     width: 80%;
     @extend .text-white, .text-roboto-slab;
+    color: $base-color-2;
     &-js{
       display: inline;
     }

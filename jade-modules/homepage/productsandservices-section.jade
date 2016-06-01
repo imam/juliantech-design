@@ -2,21 +2,36 @@
 section#productsandservices.hpas-section
     .hpas-section-container
         h2.hpas-section-title Our Products and Services
-        -o=0
-        while o < 2
+        -column=1
+        while column <= 2
             .hpas-section-row
-                -n=0
-                while n < 4
-                    .hpas-section-item-wrapper
-                        a(href="#")
-                            .hpas-section-item
-                                .hpas-section-item-text-wrapper
-                                    .hpas-section-item-text
-                                        h2.hpas-section-item-title Dolorem, laudantium.
-                                        h3.hpas-section-item-pricing Mulai Dari Rp xxx.xxx,xx
-                                .hpas-section-item-bg-wrapper
-                                    .hpas-section-item-bg
-                                        .hpas-section-item-bg-overlay
-                                        .hpas-section-item-bg-image
-                    -n++
-            -o++
+                -row=1
+                while row <=4
+                    //- Last Column
+                    if row != 4 || column !=2
+                        .hpas-section-item-wrapper
+                            a(href="#")
+                                .hpas-section-item
+                                    .hpas-section-item-text-wrapper
+                                        .hpas-section-item-text
+                                            h2.hpas-section-item-title Dolorem, laudantium.
+                                            h3.hpas-section-item-pricing Mulai Dari Rp xxx.xxx,xx
+                                    .hpas-section-item-bg-wrapper
+                                        .hpas-section-item-bg
+                                            .hpas-section-item-bg-overlay
+                                            .hpas-section-item-bg-image
+                        -row++
+                    else
+                        .hpas-section-item-wrapper
+                            a(href="#")
+                                .hpas-section-item
+                                    .hpas-section-item-text-wrapper
+                                        .hpas-section-item-text
+                                            h2.hpas-section-item-title Read More
+                                            hr.hpas-section-item-read-more-hr
+                                    .hpas-section-item-bg-wrapper
+                                        .hpas-section-item-bg
+                                            .hpas-section-item-bg-read-more-overlay
+                                            .hpas-section-item-bg-image
+                        -row++
+            -column++

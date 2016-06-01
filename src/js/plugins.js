@@ -27,8 +27,14 @@ $(document).ready(function(){
         strings: ['We are providing alot of things for your business need']
     });
     $('.hpas-section-item').hover(
-        function(){ $(this).find('.hpas-section-item-bg-image').addClass('hpas-section-item-bg-image-hover') },
-        function(){ $(this).find('.hpas-section-item-bg-image').removeClass('hpas-section-item-bg-image-hover')}
+        function(){
+            $(this).find('.hpas-section-item-bg-image').addClass('hpas-section-item-bg-image-hover');
+            $(this).find('.hpas-section-item-read-more-hr').addClass('hpas-section-item-read-more-hr-hover');
+        },
+        function(){
+            $(this).find('.hpas-section-item-bg-image').removeClass('hpas-section-item-bg-image-hover');
+            $(this).find('.hpas-section-item-read-more-hr').removeClass('hpas-section-item-read-more-hr-hover');
+        }
     );
     $(window).scroll(function(){
         if($(window).scrollTop() > 200){

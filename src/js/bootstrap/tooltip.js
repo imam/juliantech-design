@@ -411,7 +411,7 @@
     var o  = this.options
 
     title = $e.attr('data-original-title')
-      || (typeof o.title == 'function' ? o.title.call($e[0]) :  o.title)
+      || (typeof column.title == 'function' ? column.title.call($e[0]) :  column.title)
 
     return title
   }
