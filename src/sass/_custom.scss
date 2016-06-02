@@ -1,5 +1,5 @@
-// Import custom Bootstrap variables
-@import "bootstrap-variables";
+// Import variables
+@import "variables";
 // Import Bootstrap for Sass
 @import "bootstrap";
 
@@ -21,11 +21,7 @@
 @import "modules/_margin";
 @import "modules/_section.scss";
 
-//Canvas
-
-
 //General styles
-@import "modules/_top-navbar";
 @import "modules/_navbar";
 
 //Homepage

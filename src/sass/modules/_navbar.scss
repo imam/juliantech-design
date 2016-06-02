@@ -1,51 +1,3 @@
-/*
-.navbar{
-  .navbar-container{
-    width: $navbar-width;
-    margin: 0 auto;
-  }
-}
-
-.navbar-with-top-navbar{
-  top: $top-navbar-height;
-}
-
-.navbar-default{
-  transition: all 0.5s ease-in 0s;
-  .navbar-nav{
-    > li {
-      min-width: $navbar-link-min-width;
-      text-align: left;
-      border-left: $navbar-link-border-left;
-      padding-left: 0;
-      &:hover{
-        background-color: $nav-link-hover-bg;
-      }
-      > a{
-        padding-top: $nav-link-padding-top;
-        height: $nav-link-height;
-        line-height: $nav-link-line-height;
-        span.nav-title{
-          font-size: $nav-title-font-size;
-        }
-        span.nav-desc{
-          display: block;
-          font-size: $nav-title-font-desc;
-          font-weight: 300;
-        }
-      }
-      > a:hover{
-        color: $nav-link-hover-bg-text-color;
-      }
-    }
-  }
-}
-
-.navbar-afterScroll{
-  top: 0;
-}
-*/
-
 %header-transition{
   -webkit-transition: height .4s ease, opacity .3s ease;
   -o-transition: height .4s ease, opacity .3s ease;
@@ -57,22 +9,15 @@
 }
 
 .header{
-  border-bottom-color: #EEE;
-  @extend %header-transition;
-  background-color: #FFF;
-  width: 100%;
   z-index: 999;
-  border-bottom: 1px solid #F5F5F5;
-  @extend .position-relative,%header-height;
+  border-bottom: 1px solid #eeeeee;
+  @extend .position-relative,%header-height, %header-transition, .background-white, .width-100-percent;
   &-wrapper{
-
-    width: 100%;
-    @extend %header-transition, .position-relative, %header-height;
+    @extend %header-transition, .position-relative, %header-height, .width-100-percent;
   }
   &-container{
-    width: 100%;
     padding: 0 30px;
-    @extend .position-relative;
+    @extend .position-relative, .width-100-percent;
   }
   &-logo{
     padding-right: 30px;
