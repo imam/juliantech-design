@@ -1,7 +1,7 @@
 .ha-section{
   color: white;
   &-title{
-    @extend .text-center,.margin-50px-vertical,.text-color-main,.text-roboto-slab;
+    @extend .homepage-section-title;
   }
   &-wrapper{
     @extend .container,.margin-80px-vertical;
