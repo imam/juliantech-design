@@ -47,9 +47,9 @@
     @extend %header-transition, %header-height;
   }
   &-menu{
-    position: relative;
     float: left;
     list-style: none;
+    @extend  .position-relative;
   }
   &-menu-title-wrapper{
     position: relative;
