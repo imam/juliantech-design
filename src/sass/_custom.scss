@@ -11,6 +11,9 @@
 @import "mixins/padding";
 @import "mixins/margin";
 
+//Main Style
+@import "_main";
+
 //Reusable
 @import "modules/_text";
 @import "modules/_image-overlay";
