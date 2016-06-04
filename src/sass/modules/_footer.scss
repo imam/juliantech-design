@@ -1,0 +1,8 @@
+.footerfs{
+  &-row{
+    @extend .row;
+  }
+  &-column{
+    @extend .col-lg-3;
+  }
+}
