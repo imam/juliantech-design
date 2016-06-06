@@ -1,9 +1,9 @@
 %footer-link-hover{
-  color: $base-color-4;
+  color: $base-color-3;
 }
 
 .footer{
-  @extend .text-white,.padding-70px-top,.padding-30px-bottom, .background-black;
+  @extend .text-white,.padding-70px-top,.padding-30px-bottom, .background-base-color-5, .text-bold;
   &fs {
     &-row {
       @extend .row;
@@ -15,7 +15,7 @@
       @extend .list-unstyled;
     }
     &-link{
-      @extend .text-color-main;
+      @extend .text-color-base-color-2;
       &:hover,&:focus{
         @extend %footer-link-hover;
       }
