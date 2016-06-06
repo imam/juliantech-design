@@ -1,8 +1,39 @@
-.footerfs{
-  &-row{
-    @extend .row;
+%footer-link-hover{
+  color: $base-color-4;
+}
+
+.footer{
+  @extend .text-white,.padding-70px-top,.padding-30px-bottom, .background-black;
+  &fs {
+    &-row {
+      @extend .row;
+    }
+    &-column {
+      @extend .col-lg-3;
+    }
+    &-li {
+      @extend .list-unstyled;
+    }
+    &-link{
+      @extend .text-color-main;
+      &:hover,&:focus{
+        @extend %footer-link-hover;
+      }
+    }
   }
-  &-column{
-    @extend .col-lg-3;
+
+  &ss {
+    &-row {
+      @extend .row, .margin-50px-top;
+    }
+    &-column {
+      @extend .col-lg-4;
+    }
+    &-link {
+      @extend .text-white;
+      &:hover,&:focus{
+        @extend %footer-link-hover;
+      }
+    }
   }
 }
