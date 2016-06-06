@@ -1,0 +1,21 @@
+html
+    head
+        title JulianTech
+        include ./jade-modules/head
+        script(src="src/js/typed.js")
+        script.
+            $(function () {
+                $('.ht-section-text-no-js').addClass('hidden')
+            })
+    body
+        include ./jade-modules/IE8notification
+        include ./jade-modules/newnavbar
+        section.pas-page-title
+            .pas-page-title-container
+                h1.pas-page-title-title Blog
+                span.pas-page-title-desc Our Latest News in Grid Layout
+                ol.pas-page-title-breadcrumb
+                    li.pas-page-title-breadcrumb-link
+                        a(href='#') Home
+                    li.pas-page-title-breadcrumb-link.active Blog
+        include ./jade-modules/footer

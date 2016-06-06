@@ -1,0 +1,15 @@
+.pas-page-title{
+  @extend .page-title;
+  &-container{
+    @extend .page-title-container;
+  }
+  &-title{
+    @extend .page-title-title;
+  }
+  &-desc{
+    @extend .page-title-desc;
+  }
+  &-breadcrumb{
+    @extend .page-title-breadcrumb;
+  }
+}

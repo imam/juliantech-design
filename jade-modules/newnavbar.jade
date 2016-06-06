@@ -8,7 +8,7 @@ header.header
             .header-menu-wrapper
                 .header-menu-list
                     .header-menu
-                        -menu = {'Products and Services':'#','About Us':'#','Contact Us':'#'};
+                        -menu = {'Products and Services':'productsandservices.html','About Us':'#','Contact Us':'#'};
                         each url, title in menu
                             .header-menu-title-wrapper
                                 a(href= "#{url}").header-menu-title= title
