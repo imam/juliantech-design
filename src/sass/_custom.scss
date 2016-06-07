@@ -23,6 +23,8 @@
 @import "modules/_position.scss";
 @import "modules/_background.scss";
 @import "modules/_page-title.scss";
+@import "modules/_display.scss";
+@import "modules/_width.scss";
 
 //General styles
 @import "modules/_navbar";
@@ -36,6 +38,7 @@
 
 //Products and services
 @import "pages/productsandservices/productsandservices";
+@import "pages/productsandservices/productsandservices-item-section";
 
 // Import Plugin Styles
 @import "plugin/typed";

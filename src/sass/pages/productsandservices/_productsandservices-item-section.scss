@@ -1,0 +1,17 @@
+
+
+.pas-item-title{
+  font-size: 20px;
+  @extend .text-roboto-slab;
+}
+
+.pas-item-meta{
+  padding: 0;
+  margin: 15px 0 20px;
+}
+
+.pas-item-li:not(:first-child)::before{
+  content: '/';
+  display: inline-block;
+  padding: 0 10px;
+}

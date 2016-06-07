@@ -10,12 +10,33 @@ html
     body
         include ./jade-modules/IE8notification
         include ./jade-modules/newnavbar
-        section.pas-page-title
-            .pas-page-title-container
-                h1.pas-page-title-title Blog
-                span.pas-page-title-desc Our Latest News in Grid Layout
-                ol.pas-page-title-breadcrumb
-                    li.pas-page-title-breadcrumb-link
-                        a(href='#') Home
-                    li.pas-page-title-breadcrumb-link.active Blog
+        include ./jade-modules/productsandservices/page-title
+        .container.pas-item-container
+            -row=1
+            while row <= 4
+                .row.margin-50px-vertical.pas-item-container
+                    -item=1
+                    while item<=4
+                        .col-lg-3.pas-item
+                            div.pas-item-image-wrapper
+                                a.pas-item-image-link(href='http://placehold.it/520x280', data-lightbox='image')
+                                    img.width-100-percent.image_fade.pas-item-image(style='opacity: 1;', src='http://placehold.it/520x280', alt='Standard Post with Image')
+                            .entry-title.pas-item-title-wrapper
+                                h2.pas-item-title
+                                    a.pas-item-title-link(href='blog-single.html') This is a Standard post with a Preview Image
+                            ul.entry-meta.clearfix.pas-item-meta
+                                li.inline-block.pas-item-li
+                                    i.icon-calendar
+                                    |  10th Feb 2014
+                                li.inline-block.pas-item-li
+                                    a(href='blog-single.html#comments')
+                                        i.icon-bubble
+                                        |  13
+                            .entry-content.pas-item-content
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!
+                                a.more-link(href='blog-single.html') Read More
+                        -item++
+                -row++
+
         include ./jade-modules/footer
